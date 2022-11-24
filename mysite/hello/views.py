@@ -4,5 +4,5 @@ def hello(request):
     return render(request,'hello/hello.html')
 # Create your views here.
 
-def goobye(request):
+def goodbye(request):
     return render(request,'hello/goodbye.html')
